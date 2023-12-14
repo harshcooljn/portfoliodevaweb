@@ -1,0 +1,272 @@
+.navbar{
+    background-color: rgb(83, 120, 166);
+    margin: 0;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.Capname{
+    color: coral;
+    font-size: x-large;
+}
+
+.attris a{
+    text-decoration: none;
+    font-size: 2vh;
+    color: black;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.attris a:hover{
+    font-size: x-large;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.Git,.YouTube,.Linkedin{
+    width: 25px;
+    height: 25px;
+}
+
+.icons:hover{
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s;
+}
+
+.link{
+    display: inline-block;
+    position: absolute;
+    top: 3.4vh;
+    width: 25px;
+    height: 25px;
+    background-color: aqua;
+}
+
+.link2{
+    right: 2.6vw;
+}
+.link3{
+    right: 0.4vw;
+}
+.link1{
+    right: 4.8vw;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+.Aboutsection{
+    width: 100vw;
+    height: 92vh;
+    background-color: black;
+    color: aliceblue;
+}
+
+.Aboutsection>h1{
+    padding-left: 2vw;
+    padding-top: 1vh;
+    margin: 0;
+    position: relative;
+    top: 30vh;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.Aboutsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallbox{
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.smallbox:hover{
+    transition: all 0.5s;
+    color:coral;
+    font-size: 35px;
+}
+
+.img{
+    position: fixed;
+    top: 10vh;
+    right: 2vw;
+    width: 100px;
+    height: 100px;
+}
+
+.iit{
+    position: absolute;
+    top: 22vh;
+    right: 3.5vw;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.name{
+    color: coral;
+}
+
+@media only screen and (max-width:350px){
+    .link2{
+        right: 8.3vw;
+    }
+    .link3{
+        right: 0.2vw;
+    }
+    .link1{
+        right: 16.4vw;
+    }
+    .navbar{
+        gap: 5px;
+    }
+    .attris a{
+        font-size: 10px;
+    }
+    .Git,.YouTube,.Linkedin{
+        width: 20px;
+        height: 20px;
+    }
+    .link{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media only screen and (min-width:350px) and (max-width:400px){
+    .link2{
+        right: 7.3vw;
+    }
+    .link3{
+        right: 0.2vw;
+    }
+    .link1{
+        right: 14.4vw;
+    }
+    .navbar{
+        gap: 5px;
+    }
+    .attris a{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:450px) and (min-width:400px){
+    .link2{
+        right: 6.3vw;
+    }
+    .link3{
+        right: 0.2vw;
+    }
+    .link1{
+        right: 12.4vw;
+    }
+    .navbar{
+        gap: 5px;
+    }
+    .attris a{
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width:450px) and (max-width:550px){
+    .link2{
+        right: 5.5vw;
+    }
+    .link3{
+        right: 0.2vw;
+    }
+    .link1{
+        right: 10.8vw;
+    }
+    .navbar{
+        gap: 5px;
+    }
+    .attris a{
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width:550px) and (max-width:750px){
+    .link2{
+        right: 5vw;
+    }
+    .link3{
+        right: 0.2vw;
+    }
+    .link1{
+        right: 9.8vw;
+    }
+    .navbar{
+        gap: 20px;
+    }
+    .navbar{
+        gap: 15px;
+    }
+    .attris a{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width:750px) and (max-width:970px){
+    .link2{
+        right: 4vw;
+    }
+    .link3{
+        right: 0.2vw;
+       
+    }
+    .link1{
+        right: 7.8vw;
+    }
+    
+
+}
+
+@media only screen and (min-width:970px) and (max-width:1150px){
+    .link2{
+        right: 2.8vw;
+    }
+    .link3{
+        right: 0.2vw;
+       
+    }
+    .link1{
+        right: 5.4vw;
+    }
+    
+
+}
+
+@media only screen and (min-width:1150px){
+    .link2{
+        right: 2.6vw;
+    }
+    .link3{
+        right: 0.4vw;
+    }
+    .link1{
+        right: 4.8vw;
+    }
+    
+}
+
+
